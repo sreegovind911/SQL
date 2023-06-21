@@ -1,0 +1,10 @@
+DECLARE
+A NUMBER := &A;
+B NUMBER := &B;
+BEGIN
+IF A>B THEN
+DBMS_OUTPUT.PUT_LINE(A||'is greater');
+ELSE
+DBMS_OUTPUT.PUT_LINE(B||'is greater');
+END IF;
+END;
